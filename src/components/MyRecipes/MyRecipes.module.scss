@@ -1,0 +1,43 @@
+.recipes {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 1200px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.myRecipes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 5px;
+  margin-top: 20px;
+
+  span {
+    font-size: 30px;
+  }
+}
+
+.myRecipe {
+  background: #cbcbcb;
+  border-radius: 20px;
+  padding: 15px;
+}
+
+.btn {
+  border-radius: 5px;
+  padding: 5px 10px 5px 10px;
+  background-color: #1c1b1b;
+  font-size: 15px;
+  color: #ada9a9;
+  cursor: pointer;
+  margin-bottom: 20px;
+
+  &:hover {
+    text-decoration: underline;
+
+  }
+}

@@ -1,0 +1,29 @@
+.menu {
+  display: grid;
+  margin: 0 auto;
+  max-width: 1200px;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-template-rows: repeat(1, 50px);
+  list-style: none;
+  gap: 15px;
+  padding: 0;
+  margin-bottom: 50px;
+
+  li {
+    border-radius: 5px;
+    background-color: #1c1b1b;
+    padding: 5px;
+
+    a {
+      cursor: pointer;
+      text-decoration: none;
+      color: #ada9a9;
+      font-size: 15px;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+}

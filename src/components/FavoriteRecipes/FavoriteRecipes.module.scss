@@ -1,0 +1,44 @@
+.favorite {
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  margin: 0 auto;
+  color: #000;
+  font-size: 18px;
+  span {
+    font-size: 30px;
+  }
+}
+
+.recipes {
+  border: 1px black solid;
+  text-align: center;
+  margin-bottom: 10px;
+  padding: 15px;
+  max-width:600px;
+  background: #cbcbcb;
+  border-radius: 20px;
+  .photoRecipe {
+    text-align: center;
+    width: 300px;
+    margin: 0 auto;
+
+    img {
+      width: 100%;
+    }
+  }
+}
+
+.btn {
+  border-radius: 5px;
+  padding: 5px 10px 5px 10px;
+  background-color: #1c1b1b;
+  font-size: 15px;
+  color: #ada9a9;
+  cursor: pointer;
+  margin-bottom: 20px;
+  &:hover {
+    text-decoration: underline;
+
+  }
+}
